@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Head from 'next/head';
 import Layout from '../../components/Layout';
-import { FiCheck, FiX, FiPlus, FiMinus, FiPhoneCall } from 'react-icons/fi';
+import { FiPlus, FiMinus, FiPhoneCall } from 'react-icons/fi';
 import Link from 'next/link';
 
 const Prices: React.FC = () => {

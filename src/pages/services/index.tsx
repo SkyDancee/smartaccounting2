@@ -1,42 +1,43 @@
 import React from 'react';
 import Head from 'next/head';
 import Layout from '../../components/Layout';
-import { FiCheck, FiFileText, FiDollarSign, FiUsers, FiClipboard, FiRefreshCcw } from 'react-icons/fi';
+import { FiCheck } from 'react-icons/fi';
 import Link from 'next/link';
 import ServicesSection from '../../components/ServicesSection';
 
-const services = [
-  {
-    title: 'Полное ведение бухгалтерского учета',
-    description: 'Профессиональное ведение бухгалтерского учета полного цикла в соответствии с законодательством РФ',
-    icon: <FiFileText className="text-primary text-3xl" />
-  },
-  {
-    title: 'Ведение первичной документации',
-    description: 'Полное ведение первичных бухгалтерских документов, организация документооборота',
-    icon: <FiClipboard className="text-primary text-3xl" />
-  },
-  {
-    title: 'Восстановление бухгалтерского учета',
-    description: 'Восстановление бухгалтерского учета при отсутствии или некорректном ведении',
-    icon: <FiRefreshCcw className="text-primary text-3xl" />
-  },
-  {
-    title: 'Оптимизация налогов',
-    description: 'Легальные способы оптимизации налогообложения для снижения налоговой нагрузки',
-    icon: <FiDollarSign className="text-primary text-3xl" />
-  },
-  {
-    title: 'Сдача отчетности',
-    description: 'Своевременная подготовка и сдача всех налоговых и статистических отчетов',
-    icon: <FiFileText className="text-primary text-3xl" />
-  },
-  {
-    title: 'Кадровый учет',
-    description: 'Полное ведение кадрового учета и оформление документации по сотрудникам',
-    icon: <FiUsers className="text-primary text-3xl" />
-  }
-];
+// Эта переменная используется в ServicesSection компоненте
+// const services = [
+//   {
+//     title: 'Полное ведение бухгалтерского учета',
+//     description: 'Профессиональное ведение бухгалтерского учета полного цикла в соответствии с законодательством РФ',
+//     icon: <FiFileText className="text-primary text-3xl" />
+//   },
+//   {
+//     title: 'Ведение первичной документации',
+//     description: 'Полное ведение первичных бухгалтерских документов, организация документооборота',
+//     icon: <FiClipboard className="text-primary text-3xl" />
+//   },
+//   {
+//     title: 'Восстановление бухгалтерского учета',
+//     description: 'Восстановление бухгалтерского учета при отсутствии или некорректном ведении',
+//     icon: <FiRefreshCcw className="text-primary text-3xl" />
+//   },
+//   {
+//     title: 'Оптимизация налогов',
+//     description: 'Легальные способы оптимизации налогообложения для снижения налоговой нагрузки',
+//     icon: <FiDollarSign className="text-primary text-3xl" />
+//   },
+//   {
+//     title: 'Сдача отчетности',
+//     description: 'Своевременная подготовка и сдача всех налоговых и статистических отчетов',
+//     icon: <FiFileText className="text-primary text-3xl" />
+//   },
+//   {
+//     title: 'Кадровый учет',
+//     description: 'Полное ведение кадрового учета и оформление документации по сотрудникам',
+//     icon: <FiUsers className="text-primary text-3xl" />
+//   }
+// ];
 
 const Services: React.FC = () => {
   return (
